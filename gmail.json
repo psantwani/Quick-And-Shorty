@@ -1,331 +1,326 @@
-{
-  "name": "Gmail",
-  "domain": "mail.google.com",
-  "description": "",
-  "shortcuts": [
-    {
-      "action": "Previous message in an open conversation",
-      "shortcut": { "windows": "p", "mac": "p" }
-    },
-    {
-      "action": "Next message in an open conversation",
-      "shortcut": { "windows": "n", "mac": "n" }
-    },
-    {
-      "action": "Focus main window",
-      "shortcut": { "windows": "Shift + Esc", "mac": "Shift + Esc" }
-    },
-    {
-      "action": "Focus latest chat or compose",
-      "shortcut": { "windows": "Esc", "mac": "Esc" }
-    },
-    {
-      "action": "Advance to the next chat or compose",
-      "shortcut": { "windows": "Ctrl + .", "mac": "Ctrl + ." }
-    },
-    {
-      "action": "Advance to previous chat or compose",
-      "shortcut": { "windows": "Ctrl + ,", "mac": "Ctrl + ," }
-    },
-    {
-      "action": "Send",
-      "shortcut": { "mac": "Cmd + Enter", "windows": "Ctrl + Enter" }
-    },
-    {
-      "action": "Add cc recipients",
-      "shortcut": { "mac": "Cmd + Shift + c", "windows": "Ctrl + Shift + c" }
-    },
-    {
-      "action": "Add bcc recipients",
-      "shortcut": { "mac": "Cmd + Shift + b", "windows": "Ctrl + Shift + b" }
-    },
-    {
-      "action": "Access custom from",
-      "shortcut": { "mac": "Cmd + Shift + f", "windows": "Ctrl + Shift + f" }
-    },
-    {
-      "action": "Insert a link",
-      "shortcut": { "mac": "Cmd + k", "windows": "Ctrl + k" }
-    },
-    {
-      "action": "Go to next misspelled word (Mac only)",
-      "shortcut": { "windows": "Cmd + ;", "mac": "Cmd + ;" }
-    },
-    {
-      "action": "Open spelling suggestions",
-      "shortcut": { "mac": "Cmd + m", "windows": "Ctrl + m" }
-    },
-    {
-      "action": "Previous font",
-      "shortcut": { "mac": "Cmd + Shift + 5", "windows": "Ctrl + Shift + 5" }
-    },
-    {
-      "action": "Next font",
-      "shortcut": { "mac": "Cmd + Shift + 6", "windows": "Ctrl + Shift + 6" }
-    },
-    {
-      "action": "Decrease text size",
-      "shortcut": { "mac": "Cmd + Shift + -", "windows": "Ctrl + Shift + -" }
-    },
-    {
-      "action": "Increase text size",
-      "shortcut": { "mac": "Cmd + Shift and +", "windows": "Ctrl + Shift and +" }
-    },
-    { "action": "Bold", "shortcut": { "mac": "Cmd + b", "windows": "Ctrl + b" } },
-    {
-      "action": "Italics",
-      "shortcut": { "mac": "Cmd + i", "windows": "Ctrl + i" }
-    },
-    {
-      "action": "Underline",
-      "shortcut": { "mac": "Cmd + u", "windows": "Ctrl + u" }
-    },
-    {
-      "action": "Numbered list",
-      "shortcut": { "mac": "Cmd + Shift + 7", "windows": "Ctrl + Shift + 7" }
-    },
-    {
-      "action": "Bulleted list",
-      "shortcut": { "mac": "Cmd + Shift + 8", "windows": "Ctrl + Shift + 8" }
-    },
-    {
-      "action": "Quote",
-      "shortcut": { "mac": "Cmd + Shift + 9", "windows": "Ctrl + Shift + 9" }
-    },
-    {
-      "action": "Indent less",
-      "shortcut": { "mac": "Cmd + [", "windows": "Ctrl + [" }
-    },
-    {
-      "action": "Indent more",
-      "shortcut": { "mac": "Cmd + ]", "windows": "Ctrl + ]" }
-    },
-    {
-      "action": "Align left",
-      "shortcut": { "mac": "Cmd + Shift + l", "windows": "Ctrl + Shift + l" }
-    },
-    {
-      "action": "Align center",
-      "shortcut": { "mac": "Cmd + Shift + e", "windows": "Ctrl + Shift + e" }
-    },
-    {
-      "action": "Align right",
-      "shortcut": { "mac": "Cmd + Shift + r", "windows": "Ctrl + Shift + r" }
-    },
-    {
-      "action": "Remove formatting",
-      "shortcut": { "mac": "Cmd + \\", "windows": "Ctrl + \\" }
-    },
-    {
-      "action": "Move focus to toolbar",
-      "shortcut": { "windows": ",", "mac": "," }
-    },
-    {
-      "action": "Select conversation",
-      "shortcut": { "windows": "x", "mac": "x" }
-    },
-    {
-      "action": "Toggle star/rotate among superstars",
-      "shortcut": { "windows": "s", "mac": "s" }
-    },
-    { "action": "Archive", "shortcut": { "windows": "e", "mac": "e" } },
-    { "action": "Mute conversation", "shortcut": { "windows": "m", "mac": "m" } },
-    { "action": "Report as spam", "shortcut": { "windows": "!", "mac": "!" } },
-    { "action": "Delete", "shortcut": { "windows": "#", "mac": "#" } },
-    { "action": "Reply", "shortcut": { "windows": "r", "mac": "r" } },
-    {
-      "action": "Reply in a new window",
-      "shortcut": { "windows": "Shift + r", "mac": "Shift + r" }
-    },
-    { "action": "Reply all", "shortcut": { "windows": "a", "mac": "a" } },
-    {
-      "action": "Reply all in a new window",
-      "shortcut": { "windows": "Shift + a", "mac": "Shift + a" }
-    },
-    { "action": "Forward", "shortcut": { "windows": "f", "mac": "f" } },
-    {
-      "action": "Forward in a new window",
-      "shortcut": { "windows": "Shift + f", "mac": "Shift + f" }
-    },
-    {
-      "action": "Update conversation",
-      "shortcut": { "windows": "Shift + n", "mac": "Shift + n" }
-    },
-    {
-      "action": "Archive conversation and go previous/next",
-      "shortcut": { "windows": "] or [", "mac": "] or [" }
-    },
-    { "action": "Undo last action", "shortcut": { "windows": "z", "mac": "z" } },
-    {
-      "action": "Mark as read",
-      "shortcut": { "windows": "Shift + i", "mac": "Shift + i" }
-    },
-    {
-      "action": "Mark as unread",
-      "shortcut": { "windows": "Shift + u", "mac": "Shift + u" }
-    },
-    {
-      "action": "Mark unread from the selected message",
-      "shortcut": { "windows": "_", "mac": "_" }
-    },
-    {
-      "action": "Mark as important",
-      "shortcut": { "windows": "+ or =", "mac": "+ or =" }
-    },
-    {
-      "action": "Mark as not important",
-      "shortcut": { "windows": "-", "mac": "-" }
-    },
-    { "action": "Snooze", "shortcut": { "windows": "b", "mac": "b" } },
-    {
-      "action": "Expand entire conversation",
-      "shortcut": { "windows": ";", "mac": ";" }
-    },
-    {
-      "action": "Collapse entire conversation",
-      "shortcut": { "windows": ":", "mac": ":" }
-    },
-    {
-      "action": "Add conversation to Tasks",
-      "shortcut": { "windows": "Shift + t", "mac": "Shift + t" }
-    },
-    { "action": "Show menu", "shortcut": { "windows": "h + m", "mac": "h + m" } },
-    {
-      "action": "Show archived hangouts",
-      "shortcut": { "windows": "h + a", "mac": "h + a" }
-    },
-    {
-      "action": "Show Hangout requests",
-      "shortcut": { "windows": "h + i", "mac": "h + i" }
-    },
-    {
-      "action": "Focus on the conversation list",
-      "shortcut": { "windows": "h + c", "mac": "h + c" }
-    },
-    {
-      "action": "Open phone",
-      "shortcut": { "windows": "h + p", "mac": "h + p" }
-    },
-    {
-      "action": "Go to Inbox",
-      "shortcut": { "windows": "g + i", "mac": "g + i" }
-    },
-    {
-      "action": "Go to Starred conversations",
-      "shortcut": { "windows": "g + s", "mac": "g + s" }
-    },
-    {
-      "action": "Go to Snoozed conversations",
-      "shortcut": { "windows": "g + b", "mac": "g + b" }
-    },
-    {
-      "action": "Go to Sent messages",
-      "shortcut": { "windows": "g + t", "mac": "g + t" }
-    },
-    {
-      "action": "Go to Drafts",
-      "shortcut": { "windows": "g + d", "mac": "g + d" }
-    },
-    {
-      "action": "Go to All mail",
-      "shortcut": { "windows": "g + a", "mac": "g + a" }
-    },
-    {
-      "action": "Switch between the Calendar/Keep/Tasks sidebar and your inbox.",
-      "shortcut": {
-        "mac": "Cmd + Alt + , and Cmd + Alt + .",
-        "windows": "Ctrl + Alt + , and Ctrl + Alt + ."
-      }
-    },
-    {
-      "action": "Go to Tasks",
-      "shortcut": { "windows": "g + k", "mac": "g + k" }
-    },
-    {
-      "action": "Go to label",
-      "shortcut": { "windows": "g + l", "mac": "g + l" }
-    },
-    {
-      "action": "Select all conversations",
-      "shortcut": { "windows": "* + a", "mac": "* + a" }
-    },
-    {
-      "action": "Deselect all conversations",
-      "shortcut": { "windows": "* + n", "mac": "* + n" }
-    },
-    {
-      "action": "Select read conversations",
-      "shortcut": { "windows": "* + r", "mac": "* + r" }
-    },
-    {
-      "action": "Select unread conversations",
-      "shortcut": { "windows": "* + u", "mac": "* + u" }
-    },
-    {
-      "action": "Select starred conversations",
-      "shortcut": { "windows": "* + s", "mac": "* + s" }
-    },
-    {
-      "action": "Select unstarred conversations",
-      "shortcut": { "windows": "* + t", "mac": "* + t" }
-    },
-    {
-      "action": "Go to next page",
-      "shortcut": { "windows": "g + n", "mac": "g + n" }
-    },
-    {
-      "action": "Go to previous page",
-      "shortcut": { "windows": "g + p", "mac": "g + p" }
-    },
-    {
-      "action": "Back to threadlist",
-      "shortcut": { "windows": "u", "mac": "u" }
-    },
-    {
-      "action": "Newer conversation",
-      "shortcut": { "windows": "k", "mac": "k" }
-    },
-    {
-      "action": "Older conversation",
-      "shortcut": { "windows": "j", "mac": "j" }
-    },
-    {
-      "action": "Open conversation",
-      "shortcut": { "windows": "o or Enter", "mac": "o or Enter" }
-    },
-    {
-      "action": "Go to next Inbox section",
-      "shortcut": { "windows": "`", "mac": "`" }
-    },
-    {
-      "action": "Go to previous Inbox section",
-      "shortcut": { "windows": "~", "mac": "~" }
-    },
-    { "action": "Compose", "shortcut": { "windows": "c", "mac": "c" } },
-    {
-      "action": "Compose in a new tab",
-      "shortcut": { "windows": "d", "mac": "d" }
-    },
-    { "action": "Search mail", "shortcut": { "windows": "/", "mac": "/" } },
-    {
-      "action": "Search chat contacts",
-      "shortcut": { "windows": "g", "mac": "g" }
-    },
-    {
-      "action": "Open \"more actions\" menu",
-      "shortcut": { "windows": ".", "mac": "." }
-    },
-    {
-      "action": "Open \"move to\" menu",
-      "shortcut": { "windows": "v", "mac": "v" }
-    },
-    {
-      "action": "Open \"label as\" menu",
-      "shortcut": { "windows": "l", "mac": "l" }
-    },
-    {
-      "action": "Open keyboard \"shortcut\" help",
-      "shortcut": { "windows": "?", "mac": "?" }
+[
+  {
+    "action": "Previous message in an open conversation",
+    "shortcut": { "windows": "p", "mac": "p" }
+  },
+  {
+    "action": "Next message in an open conversation",
+    "shortcut": { "windows": "n", "mac": "n" }
+  },
+  {
+    "action": "Focus main window",
+    "shortcut": { "windows": "Shift + Esc", "mac": "Shift + Esc" }
+  },
+  {
+    "action": "Focus latest chat or compose",
+    "shortcut": { "windows": "Esc", "mac": "Esc" }
+  },
+  {
+    "action": "Advance to the next chat or compose",
+    "shortcut": { "windows": "Ctrl + .", "mac": "Ctrl + ." }
+  },
+  {
+    "action": "Advance to previous chat or compose",
+    "shortcut": { "windows": "Ctrl + ,", "mac": "Ctrl + ," }
+  },
+  {
+    "action": "Send",
+    "shortcut": { "mac": "Cmd + Enter", "windows": "Ctrl + Enter" }
+  },
+  {
+    "action": "Add cc recipients",
+    "shortcut": { "mac": "Cmd + Shift + c", "windows": "Ctrl + Shift + c" }
+  },
+  {
+    "action": "Add bcc recipients",
+    "shortcut": { "mac": "Cmd + Shift + b", "windows": "Ctrl + Shift + b" }
+  },
+  {
+    "action": "Access custom from",
+    "shortcut": { "mac": "Cmd + Shift + f", "windows": "Ctrl + Shift + f" }
+  },
+  {
+    "action": "Insert a link",
+    "shortcut": { "mac": "Cmd + k", "windows": "Ctrl + k" }
+  },
+  {
+    "action": "Go to next misspelled word (Mac only)",
+    "shortcut": { "windows": "Cmd + ;", "mac": "Cmd + ;" }
+  },
+  {
+    "action": "Open spelling suggestions",
+    "shortcut": { "mac": "Cmd + m", "windows": "Ctrl + m" }
+  },
+  {
+    "action": "Previous font",
+    "shortcut": { "mac": "Cmd + Shift + 5", "windows": "Ctrl + Shift + 5" }
+  },
+  {
+    "action": "Next font",
+    "shortcut": { "mac": "Cmd + Shift + 6", "windows": "Ctrl + Shift + 6" }
+  },
+  {
+    "action": "Decrease text size",
+    "shortcut": { "mac": "Cmd + Shift + -", "windows": "Ctrl + Shift + -" }
+  },
+  {
+    "action": "Increase text size",
+    "shortcut": { "mac": "Cmd + Shift and +", "windows": "Ctrl + Shift and +" }
+  },
+  { "action": "Bold", "shortcut": { "mac": "Cmd + b", "windows": "Ctrl + b" } },
+  {
+    "action": "Italics",
+    "shortcut": { "mac": "Cmd + i", "windows": "Ctrl + i" }
+  },
+  {
+    "action": "Underline",
+    "shortcut": { "mac": "Cmd + u", "windows": "Ctrl + u" }
+  },
+  {
+    "action": "Numbered list",
+    "shortcut": { "mac": "Cmd + Shift + 7", "windows": "Ctrl + Shift + 7" }
+  },
+  {
+    "action": "Bulleted list",
+    "shortcut": { "mac": "Cmd + Shift + 8", "windows": "Ctrl + Shift + 8" }
+  },
+  {
+    "action": "Quote",
+    "shortcut": { "mac": "Cmd + Shift + 9", "windows": "Ctrl + Shift + 9" }
+  },
+  {
+    "action": "Indent less",
+    "shortcut": { "mac": "Cmd + [", "windows": "Ctrl + [" }
+  },
+  {
+    "action": "Indent more",
+    "shortcut": { "mac": "Cmd + ]", "windows": "Ctrl + ]" }
+  },
+  {
+    "action": "Align left",
+    "shortcut": { "mac": "Cmd + Shift + l", "windows": "Ctrl + Shift + l" }
+  },
+  {
+    "action": "Align center",
+    "shortcut": { "mac": "Cmd + Shift + e", "windows": "Ctrl + Shift + e" }
+  },
+  {
+    "action": "Align right",
+    "shortcut": { "mac": "Cmd + Shift + r", "windows": "Ctrl + Shift + r" }
+  },
+  {
+    "action": "Remove formatting",
+    "shortcut": { "mac": "Cmd + \\", "windows": "Ctrl + \\" }
+  },
+  {
+    "action": "Move focus to toolbar",
+    "shortcut": { "windows": ",", "mac": "," }
+  },
+  {
+    "action": "Select conversation",
+    "shortcut": { "windows": "x", "mac": "x" }
+  },
+  {
+    "action": "Toggle star/rotate among superstars",
+    "shortcut": { "windows": "s", "mac": "s" }
+  },
+  { "action": "Archive", "shortcut": { "windows": "e", "mac": "e" } },
+  { "action": "Mute conversation", "shortcut": { "windows": "m", "mac": "m" } },
+  { "action": "Report as spam", "shortcut": { "windows": "!", "mac": "!" } },
+  { "action": "Delete", "shortcut": { "windows": "#", "mac": "#" } },
+  { "action": "Reply", "shortcut": { "windows": "r", "mac": "r" } },
+  {
+    "action": "Reply in a new window",
+    "shortcut": { "windows": "Shift + r", "mac": "Shift + r" }
+  },
+  { "action": "Reply all", "shortcut": { "windows": "a", "mac": "a" } },
+  {
+    "action": "Reply all in a new window",
+    "shortcut": { "windows": "Shift + a", "mac": "Shift + a" }
+  },
+  { "action": "Forward", "shortcut": { "windows": "f", "mac": "f" } },
+  {
+    "action": "Forward in a new window",
+    "shortcut": { "windows": "Shift + f", "mac": "Shift + f" }
+  },
+  {
+    "action": "Update conversation",
+    "shortcut": { "windows": "Shift + n", "mac": "Shift + n" }
+  },
+  {
+    "action": "Archive conversation and go previous/next",
+    "shortcut": { "windows": "] or [", "mac": "] or [" }
+  },
+  { "action": "Undo last action", "shortcut": { "windows": "z", "mac": "z" } },
+  {
+    "action": "Mark as read",
+    "shortcut": { "windows": "Shift + i", "mac": "Shift + i" }
+  },
+  {
+    "action": "Mark as unread",
+    "shortcut": { "windows": "Shift + u", "mac": "Shift + u" }
+  },
+  {
+    "action": "Mark unread from the selected message",
+    "shortcut": { "windows": "_", "mac": "_" }
+  },
+  {
+    "action": "Mark as important",
+    "shortcut": { "windows": "+ or =", "mac": "+ or =" }
+  },
+  {
+    "action": "Mark as not important",
+    "shortcut": { "windows": "-", "mac": "-" }
+  },
+  { "action": "Snooze", "shortcut": { "windows": "b", "mac": "b" } },
+  {
+    "action": "Expand entire conversation",
+    "shortcut": { "windows": ";", "mac": ";" }
+  },
+  {
+    "action": "Collapse entire conversation",
+    "shortcut": { "windows": ":", "mac": ":" }
+  },
+  {
+    "action": "Add conversation to Tasks",
+    "shortcut": { "windows": "Shift + t", "mac": "Shift + t" }
+  },
+  { "action": "Show menu", "shortcut": { "windows": "h + m", "mac": "h + m" } },
+  {
+    "action": "Show archived hangouts",
+    "shortcut": { "windows": "h + a", "mac": "h + a" }
+  },
+  {
+    "action": "Show Hangout requests",
+    "shortcut": { "windows": "h + i", "mac": "h + i" }
+  },
+  {
+    "action": "Focus on the conversation list",
+    "shortcut": { "windows": "h + c", "mac": "h + c" }
+  },
+  {
+    "action": "Open phone",
+    "shortcut": { "windows": "h + p", "mac": "h + p" }
+  },
+  {
+    "action": "Go to Inbox",
+    "shortcut": { "windows": "g + i", "mac": "g + i" }
+  },
+  {
+    "action": "Go to Starred conversations",
+    "shortcut": { "windows": "g + s", "mac": "g + s" }
+  },
+  {
+    "action": "Go to Snoozed conversations",
+    "shortcut": { "windows": "g + b", "mac": "g + b" }
+  },
+  {
+    "action": "Go to Sent messages",
+    "shortcut": { "windows": "g + t", "mac": "g + t" }
+  },
+  {
+    "action": "Go to Drafts",
+    "shortcut": { "windows": "g + d", "mac": "g + d" }
+  },
+  {
+    "action": "Go to All mail",
+    "shortcut": { "windows": "g + a", "mac": "g + a" }
+  },
+  {
+    "action": "Switch between the Calendar/Keep/Tasks sidebar and your inbox.",
+    "shortcut": {
+      "mac": "Cmd + Alt + , and Cmd + Alt + .",
+      "windows": "Ctrl + Alt + , and Ctrl + Alt + ."
     }
-  ]
-}
+  },
+  {
+    "action": "Go to Tasks",
+    "shortcut": { "windows": "g + k", "mac": "g + k" }
+  },
+  {
+    "action": "Go to label",
+    "shortcut": { "windows": "g + l", "mac": "g + l" }
+  },
+  {
+    "action": "Select all conversations",
+    "shortcut": { "windows": "* + a", "mac": "* + a" }
+  },
+  {
+    "action": "Deselect all conversations",
+    "shortcut": { "windows": "* + n", "mac": "* + n" }
+  },
+  {
+    "action": "Select read conversations",
+    "shortcut": { "windows": "* + r", "mac": "* + r" }
+  },
+  {
+    "action": "Select unread conversations",
+    "shortcut": { "windows": "* + u", "mac": "* + u" }
+  },
+  {
+    "action": "Select starred conversations",
+    "shortcut": { "windows": "* + s", "mac": "* + s" }
+  },
+  {
+    "action": "Select unstarred conversations",
+    "shortcut": { "windows": "* + t", "mac": "* + t" }
+  },
+  {
+    "action": "Go to next page",
+    "shortcut": { "windows": "g + n", "mac": "g + n" }
+  },
+  {
+    "action": "Go to previous page",
+    "shortcut": { "windows": "g + p", "mac": "g + p" }
+  },
+  {
+    "action": "Back to threadlist",
+    "shortcut": { "windows": "u", "mac": "u" }
+  },
+  {
+    "action": "Newer conversation",
+    "shortcut": { "windows": "k", "mac": "k" }
+  },
+  {
+    "action": "Older conversation",
+    "shortcut": { "windows": "j", "mac": "j" }
+  },
+  {
+    "action": "Open conversation",
+    "shortcut": { "windows": "o or Enter", "mac": "o or Enter" }
+  },
+  {
+    "action": "Go to next Inbox section",
+    "shortcut": { "windows": "`", "mac": "`" }
+  },
+  {
+    "action": "Go to previous Inbox section",
+    "shortcut": { "windows": "~", "mac": "~" }
+  },
+  { "action": "Compose", "shortcut": { "windows": "c", "mac": "c" } },
+  {
+    "action": "Compose in a new tab",
+    "shortcut": { "windows": "d", "mac": "d" }
+  },
+  { "action": "Search mail", "shortcut": { "windows": "/", "mac": "/" } },
+  {
+    "action": "Search chat contacts",
+    "shortcut": { "windows": "g", "mac": "g" }
+  },
+  {
+    "action": "Open \"more actions\" menu",
+    "shortcut": { "windows": ".", "mac": "." }
+  },
+  {
+    "action": "Open \"move to\" menu",
+    "shortcut": { "windows": "v", "mac": "v" }
+  },
+  {
+    "action": "Open \"label as\" menu",
+    "shortcut": { "windows": "l", "mac": "l" }
+  },
+  {
+    "action": "Open keyboard \"shortcut\" help",
+    "shortcut": { "windows": "?", "mac": "?" }
+  }
+]
