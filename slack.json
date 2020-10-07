@@ -1,15 +1,24 @@
 [
   {
     "action": "Go to Conversation",
-    "shortcut": { "windows": "Ctrl+K", "mac": "Cmd+K" }
+    "shortcut": {
+      "windows": "Ctrl+K",
+      "mac": "Cmd+K"
+    }
   },
   {
     "action": "Go to Direct Messages (DM)",
-    "shortcut": { "windows": "Ctrl+Shift+K", "mac": "Cmd+Shift+K" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+K",
+      "mac": "Cmd+Shift+K"
+    }
   },
   {
     "action": "Go to Channels",
-    "shortcut": { "windows": "Ctrl+Shift+L", "mac": "Cmd+Shift+L" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+L",
+      "mac": "Cmd+Shift+L"
+    }
   },
   {
     "action": "Go to Mentions",
@@ -20,35 +29,59 @@
   },
   {
     "action": "Go to People",
-    "shortcut": { "windows": "Ctrl+Shift+E", "mac": "Cmd+Shift+E" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+E",
+      "mac": "Cmd+Shift+E"
+    }
   },
   {
     "action": "Go to Saved Items",
-    "shortcut": { "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+S",
+      "mac": "Cmd+Shift+S"
+    }
   },
   {
     "action": "Go to next Section",
-    "shortcut": { "windows": "F6", "mac": "F6" }
+    "shortcut": {
+      "windows": "F6",
+      "mac": "F6"
+    }
   },
   {
     "action": "Go to previous Section",
-    "shortcut": { "windows": "Shift+F6", "mac": "Shift+F6" }
+    "shortcut": {
+      "windows": "Shift+F6",
+      "mac": "Shift+F6"
+    }
   },
   {
     "action": "Go to next Unread",
-    "shortcut": { "windows": "Alt+Shift+Down", "mac": "Option+Shift+Down" }
+    "shortcut": {
+      "windows": "Alt+Shift+Down",
+      "mac": "Option+Shift+Down"
+    }
   },
   {
     "action": "Go to previous Unread",
-    "shortcut": { "windows": "Alt+Shift+Up", "mac": "Option+Shift+Up" }
+    "shortcut": {
+      "windows": "Alt+Shift+Up",
+      "mac": "Option+Shift+Up"
+    }
   },
   {
     "action": "Go to next Channel/DM",
-    "shortcut": { "windows": "Alt+Right", "mac": "Cmd+[" }
+    "shortcut": {
+      "windows": "Alt+Right",
+      "mac": "Cmd+["
+    }
   },
   {
     "action": "Go to previous Channel/DM",
-    "shortcut": { "windows": "Alt+Left", "mac": "Cmd+]" }
+    "shortcut": {
+      "windows": "Alt+Left",
+      "mac": "Cmd+]"
+    }
   },
   {
     "action": "Go to next Workspace",
@@ -73,11 +106,17 @@
   },
   {
     "action": "Go to Channel Info",
-    "shortcut": { "windows": "Ctrl+Shift+I", "mac": "Cmd+Shift+I" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+I",
+      "mac": "Cmd+Shift+I"
+    }
   },
   {
     "action": "Go to New Message",
-    "shortcut": { "windows": "Ctrl+N", "mac": "Cmd+N" }
+    "shortcut": {
+      "windows": "Ctrl+N",
+      "mac": "Cmd+N"
+    }
   },
   {
     "action": "Go to Preferences",
@@ -95,31 +134,52 @@
   },
   {
     "action": "Toggle right pane",
-    "shortcut": { "windows": "Ctrl+.", "mac": "Cmd+." }
+    "shortcut": {
+      "windows": "Ctrl+.",
+      "mac": "Cmd+."
+    }
   },
   {
     "action": "Toggle Full-Screen View",
-    "shortcut": { "windows": "Ctrl+Shift+F", "mac": "Ctrl+Shift+F" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+F",
+      "mac": "Ctrl+Shift+F"
+    }
   },
   {
     "action": "Search current Channel/Conversation",
-    "shortcut": { "windows": "Ctrl+F", "mac": "Cmd+F" }
+    "shortcut": {
+      "windows": "Ctrl+F",
+      "mac": "Cmd+F"
+    }
   },
   {
     "action": "Go to previous Search",
-    "shortcut": { "windows": "Ctrl+G", "mac": "Cmd+G" }
+    "shortcut": {
+      "windows": "Ctrl+G",
+      "mac": "Cmd+G"
+    }
   },
   {
     "action": "Toggle All Unread view",
-    "shortcut": { "windows": "Ctrl+Shift+A", "mac": "Cmd+Shift+A" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+A",
+      "mac": "Cmd+Shift+A"
+    }
   },
   {
     "action": "Mark message as Unread",
-    "shortcut": { "windows": "Alt+Left Click", "mac": "Option+Left Click" }
+    "shortcut": {
+      "windows": "Alt+Left Click",
+      "mac": "Option+Left Click"
+    }
   },
   {
     "action": "Move between messages",
-    "shortcut": { "windows": "Up or Down arrows", "mac": "Up or Down arrow" }
+    "shortcut": {
+      "windows": "Up or Down arrows",
+      "mac": "Up or Down arrow"
+    }
   },
   {
     "action": "Open or collapse Channels",
@@ -130,11 +190,17 @@
   },
   {
     "action": "Mark all messages in current Channel/DM Read",
-    "shortcut": { "windows": "Esc", "mac": "Esc" }
+    "shortcut": {
+      "windows": "Esc",
+      "mac": "Esc"
+    }
   },
   {
     "action": "Mark all messages Read",
-    "shortcut": { "windows": "Shift+Esc", "mac": "Shift+Esc" }
+    "shortcut": {
+      "windows": "Shift+Esc",
+      "mac": "Shift+Esc"
+    }
   },
   {
     "action": "Set message as oldest Unread",
@@ -143,98 +209,200 @@
       "mac": "Option+Click"
     }
   },
-  { "action": "Edit message", "shortcut": { "windows": "E", "mac": "E" } },
+  {
+    "action": "Edit message",
+    "shortcut": {
+      "windows": "E",
+      "mac": "E"
+    }
+  },
   {
     "action": "Add emoji",
-    "shortcut": { "windows": "R", "mac": "Cmd+Shift+\\" }
+    "shortcut": {
+      "windows": "R",
+      "mac": "Cmd+Shift+\\"
+    }
   },
   {
     "action": "Open thread",
-    "shortcut": { "windows": "T or Right arrow", "mac": "T or Right arrow" }
+    "shortcut": {
+      "windows": "T or Right arrow",
+      "mac": "T or Right arrow"
+    }
   },
   {
     "action": "Pin or Unpin message",
-    "shortcut": { "windows": "P", "mac": "P" }
+    "shortcut": {
+      "windows": "P",
+      "mac": "P"
+    }
   },
-  { "action": "Share", "shortcut": { "windows": "S", "mac": "S" } },
+  {
+    "action": "Share",
+    "shortcut": {
+      "windows": "S",
+      "mac": "S"
+    }
+  },
   {
     "action": "Save or Unsave message",
-    "shortcut": { "windows": "A", "mac": "A" }
+    "shortcut": {
+      "windows": "A",
+      "mac": "A"
+    }
   },
-  { "action": "Mark Unread", "shortcut": { "windows": "U", "mac": "U" } },
+  {
+    "action": "Mark Unread",
+    "shortcut": {
+      "windows": "U",
+      "mac": "U"
+    }
+  },
   {
     "action": "Delete message",
-    "shortcut": { "windows": "Delete", "mac": "Delete" }
+    "shortcut": {
+      "windows": "Delete",
+      "mac": "Delete"
+    }
   },
   {
     "action": "Edit last message",
-    "shortcut": { "windows": "Ctrl+Up", "mac": "Cmd+Up" }
+    "shortcut": {
+      "windows": "Ctrl+Up",
+      "mac": "Cmd+Up"
+    }
   },
   {
     "action": "Select text to beginning of current line",
-    "shortcut": { "windows": "Shift+Up", "mac": "Shift+Up" }
+    "shortcut": {
+      "windows": "Shift+Up",
+      "mac": "Shift+Up"
+    }
   },
   {
     "action": "Select text to end of current line",
-    "shortcut": { "windows": "Shift+Down", "mac": "Shift+Down" }
+    "shortcut": {
+      "windows": "Shift+Down",
+      "mac": "Shift+Down"
+    }
   },
   {
     "action": "Insert return",
-    "shortcut": { "windows": "Shift+Enter", "mac": "Shift+Enter" }
+    "shortcut": {
+      "windows": "Shift+Enter",
+      "mac": "Shift+Enter"
+    }
   },
-  { "action": "Bold", "shortcut": { "windows": "Ctrl+B", "mac": "Cmd+B" } },
+  {
+    "action": "Bold",
+    "shortcut": {
+      "windows": "Ctrl+B",
+      "mac": "Cmd+B"
+    }
+  },
   {
     "action": "Italicize",
-    "shortcut": { "windows": "Ctrl+I", "mac": "Cmd+I" }
+    "shortcut": {
+      "windows": "Ctrl+I",
+      "mac": "Cmd+I"
+    }
   },
   {
     "action": "Strike-through",
-    "shortcut": { "windows": "Ctrl+Shift+X", "mac": "Cmd+Shift+X" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+X",
+      "mac": "Cmd+Shift+X"
+    }
   },
   {
     "action": "Quote selected text",
-    "shortcut": { "windows": "Ctrl+Shift+9", "mac": "Cmd+Shift+9" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+9",
+      "mac": "Cmd+Shift+9"
+    }
   },
   {
     "action": "Code selected text",
-    "shortcut": { "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+C",
+      "mac": "Cmd+Shift+C"
+    }
   },
   {
     "action": "Code block selected text",
-    "shortcut": { "windows": "Ctrl+Alt+Shift+C", "mac": "Cmd+Alt+Shift+C" }
+    "shortcut": {
+      "windows": "Ctrl+Alt+Shift+C",
+      "mac": "Cmd+Alt+Shift+C"
+    }
   },
   {
     "action": "Create numbered list",
-    "shortcut": { "windows": "Ctrl+Shift+7", "mac": "Cmd+Shift+7" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+7",
+      "mac": "Cmd+Shift+7"
+    }
   },
   {
     "action": "Create bulleted list",
-    "shortcut": { "windows": "Ctrl+Shift+8", "mac": "Cmd+Shift+8" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+8",
+      "mac": "Cmd+Shift+8"
+    }
   },
   {
     "action": "Apply formatting to markdown text",
-    "shortcut": { "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+F",
+      "mac": "Cmd+Shift+F"
+    }
   },
   {
     "action": "Undo message formatting",
-    "shortcut": { "windows": "Ctrl+Z", "mac": "Cmd+Z" }
+    "shortcut": {
+      "windows": "Ctrl+Z",
+      "mac": "Cmd+Z"
+    }
   },
   {
     "action": "Upload file",
-    "shortcut": { "windows": "Ctrl+U", "mac": "Cmd+U" }
+    "shortcut": {
+      "windows": "Ctrl+U",
+      "mac": "Cmd+U"
+    }
   },
   {
     "action": "Create snippet",
-    "shortcut": { "windows": "Ctrl+Shift+Enter", "mac": "Cmd+Shift+Enter" }
+    "shortcut": {
+      "windows": "Ctrl+Shift+Enter",
+      "mac": "Cmd+Shift+Enter"
+    }
   },
-  { "action": "Toggle Mute", "shortcut": { "windows": "M", "mac": "M" } },
-  { "action": "Toggle Video", "shortcut": { "windows": "V", "mac": "V" } },
+  {
+    "action": "Toggle Mute",
+    "shortcut": {
+      "windows": "M",
+      "mac": "M"
+    }
+  },
+  {
+    "action": "Toggle Video",
+    "shortcut": {
+      "windows": "V",
+      "mac": "V"
+    }
+  },
   {
     "action": "Open Invites",
-    "shortcut": { "windows": "+ or A", "mac": "+ or A" }
+    "shortcut": {
+      "windows": "+ or A",
+      "mac": "+ or A"
+    }
   },
   {
     "action": "View and select an emoji",
-    "shortcut": { "windows": "E+ (select 1-9)", "mac": "E+ (select 1-9)" }
+    "shortcut": {
+      "windows": "E+ (select 1-9)",
+      "mac": "E+ (select 1-9)"
+    }
   }
 ]
